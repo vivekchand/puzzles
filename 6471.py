@@ -10,12 +10,12 @@ for i in xrange(2,100000001):
 			break
 		
 	if prime:
-				if first:
-					print i
-					first = 0
+		if first:
+			print i
+			first = 0
 
-				count += 1
-				if count == 101:
-					print i
-					count = 0
+		count += 1
+		if count == 101:
+			print i
+			count = 0
 	
